@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[tbl_ChucVu]
+(
+	[ChucVuID] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [TenChucVu] NVARCHAR(MAX) NULL, 
+    [NoiDungCV] NVARCHAR(MAX) NULL, 
+    [QuyenLoiCV] NVARCHAR(MAX) NULL
+)

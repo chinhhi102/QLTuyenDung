@@ -1,0 +1,5 @@
+C:\Users\chinhhi102\Desktop\QLTuyenDung\QLTuyenDungDB\bin\Debug\QLTuyenDungDB.dacpac
+C:\Users\chinhhi102\Desktop\QLTuyenDung\QLTuyenDungDB\bin\Debug\QLTuyenDungDB.dll
+C:\Users\chinhhi102\Desktop\QLTuyenDung\QLTuyenDungDB\bin\Debug\QLTuyenDungDB.pdb
+C:\Users\chinhhi102\Desktop\QLTuyenDung\QLTuyenDungDB\obj\Debug\QLTuyenDungDB.dll
+C:\Users\chinhhi102\Desktop\QLTuyenDung\QLTuyenDungDB\obj\Debug\QLTuyenDungDB.pdb

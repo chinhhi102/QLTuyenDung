@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[tbl_ChucVu] (Table)
+       [dbo].[tbl_ChuyenMon] (Table)
+       [dbo].[tbl_HoSoPV] (Table)
+       [dbo].[tbl_MauThongBao] (Table)
+       [dbo].[tbl_NhanVien] (Table)
+       [dbo].[tbl_PhongBan] (Table)
+       [dbo].[tbl_TaiKhoan] (Table)
+       [dbo].[tbl_ThuViec] (Table)
+       [dbo].[tbl_TinhHinhThuViec] (Table)
+       [dbo].[tbl_TrinhDoHocVan] (Table)
+       Default Constraint: unnamed constraint on [dbo].[tbl_HoSoPV] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[tbl_MauThongBao] (Default Constraint)
+
+** Supporting actions

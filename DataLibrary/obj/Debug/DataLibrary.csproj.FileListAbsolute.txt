@@ -1,0 +1,5 @@
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\obj\Debug\DataLibrary.pdb

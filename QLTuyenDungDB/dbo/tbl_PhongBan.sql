@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[tbl_PhongBan]
+(
+	[PhongBanID] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [TenPhongBan] NVARCHAR(50) NULL, 
+    [DiaChi] NVARCHAR(250) NULL, 
+    [SDTPB] NVARCHAR(20) NULL
+)

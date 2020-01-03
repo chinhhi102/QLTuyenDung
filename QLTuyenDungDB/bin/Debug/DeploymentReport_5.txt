@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column ChuyenMonID in table [dbo].[tbl_TrinhDoHocVan] is currently  NVARCHAR (250) NULL but is being
+         changed to  INT NULL. Data loss could occur.
+
+** User actions
+     Rename
+       [dbo].[tbl_TrinhDoHocVan].[ChuyenMonID] (Column)
+     Alter
+       [dbo].[tbl_TrinhDoHocVan] (Table)
+
+** Supporting actions
+
+The type for column ChuyenMonID in table [dbo].[tbl_TrinhDoHocVan] is currently  NVARCHAR (250) NULL but is being changed to  INT NULL. Data loss could occur.
+
