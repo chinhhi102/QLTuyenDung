@@ -126,4 +126,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="ChucVu" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="f121d8c8-d139-4825-8f26-a9508cb7935f" ChangeDateTime="01/05/2020 06:43:37">
+    <Property Name="ElementName" Value="[dbo].[tbl_NhanVien].[BacLuongID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_NhanVien]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LuongYeuCau" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aa3f3bec-c0a3-43ef-883a-d19df74c4a7f" ChangeDateTime="01/05/2020 08:10:12">
+    <Property Name="ElementName" Value="[dbo].[tbl_ChuyenMon].[TenChuyenMonID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_ChuyenMon]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TenChuyenMon" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bf0e8ea3-1ba4-4122-bde7-564f2685d5ed" ChangeDateTime="01/06/2020 08:39:27">
+    <Property Name="ElementName" Value="[dbo].[tbl_TinhHinhThuViec].[NgayChapNhan]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_TinhHinhThuViec]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NgayCapNhap" />
+  </Operation>
 </Operations>

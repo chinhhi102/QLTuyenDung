@@ -11,8 +11,9 @@
     [PhongBanID] INT NULL, 
     [ChucVuID] INT NULL, 
     [TDHVID] INT NULL, 
-    [BacLuongID] INT NULL, 
+    [LuongYeuCau] NVARCHAR(50) NULL, 
     [TrangThai] INT NULL, 
     [ChuyenMonID] INT NULL, 
-    [HoSoPVID] INT NULL
+    [HoSoPVID] INT NULL, 
+    [Mota] NVARCHAR(MAX) NULL
 )

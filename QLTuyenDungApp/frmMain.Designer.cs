@@ -30,27 +30,27 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem2 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.ThongBaobnt = new DevExpress.XtraBars.BarButtonItem();
             this.ChonLocbnt = new DevExpress.XtraBars.BarButtonItem();
             this.CapNhapbnt = new DevExpress.XtraBars.BarButtonItem();
             this.Xulybnt = new DevExpress.XtraBars.BarButtonItem();
             this.BaoCaobnt = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.galleryDropDown1 = new DevExpress.XtraBars.Ribbon.GalleryDropDown(this.components);
+            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
+            this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
+            this.bntDangXuat = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
             this.tabbedView1 = new DevExpress.XtraBars.Docking2010.Views.Tabbed.TabbedView(this.components);
-            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
-            this.galleryDropDown1 = new DevExpress.XtraBars.Ribbon.GalleryDropDown(this.components);
-            this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
-            this.bntDangXuat = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.galleryDropDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.galleryDropDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -94,6 +94,7 @@
             this.ChonLocbnt.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("ChonLocbnt.ImageOptions.LargeImage")));
             this.ChonLocbnt.LargeWidth = 100;
             this.ChonLocbnt.Name = "ChonLocbnt";
+            this.ChonLocbnt.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.ChonLocbnt_ItemClick);
             // 
             // CapNhapbnt
             // 
@@ -103,6 +104,7 @@
             this.CapNhapbnt.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("CapNhapbnt.ImageOptions.LargeImage")));
             this.CapNhapbnt.LargeWidth = 100;
             this.CapNhapbnt.Name = "CapNhapbnt";
+            this.CapNhapbnt.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.CapNhapbnt_ItemClick);
             // 
             // Xulybnt
             // 
@@ -112,6 +114,7 @@
             this.Xulybnt.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("Xulybnt.ImageOptions.LargeImage")));
             this.Xulybnt.LargeWidth = 100;
             this.Xulybnt.Name = "Xulybnt";
+            this.Xulybnt.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.Xulybnt_ItemClick);
             // 
             // BaoCaobnt
             // 
@@ -121,6 +124,48 @@
             this.BaoCaobnt.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BaoCaobnt.ImageOptions.LargeImage")));
             this.BaoCaobnt.LargeWidth = 100;
             this.BaoCaobnt.Name = "BaoCaobnt";
+            this.BaoCaobnt.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BaoCaobnt_ItemClick);
+            // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.ActAsDropDown = true;
+            this.barButtonItem1.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
+            this.barButtonItem1.Caption = "Đăng xuất";
+            this.barButtonItem1.DropDownControl = this.galleryDropDown1;
+            this.barButtonItem1.Id = 11;
+            this.barButtonItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem1.ImageOptions.SvgImage")));
+            this.barButtonItem1.Name = "barButtonItem1";
+            toolTipTitleItem1.Text = "User";
+            superToolTip1.Items.Add(toolTipTitleItem1);
+            this.barButtonItem1.SuperTip = superToolTip1;
+            // 
+            // galleryDropDown1
+            // 
+            this.galleryDropDown1.Name = "galleryDropDown1";
+            this.galleryDropDown1.Ribbon = this.ribbonControl1;
+            // 
+            // barButtonItem2
+            // 
+            this.barButtonItem2.Caption = "barButtonItem2";
+            this.barButtonItem2.Id = 12;
+            this.barButtonItem2.Name = "barButtonItem2";
+            // 
+            // barSubItem1
+            // 
+            this.barSubItem1.Caption = "User";
+            this.barSubItem1.Id = 13;
+            this.barSubItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barSubItem1.ImageOptions.Image")));
+            this.barSubItem1.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barSubItem1.ImageOptions.LargeImage")));
+            this.barSubItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.bntDangXuat)});
+            this.barSubItem1.Name = "barSubItem1";
+            // 
+            // bntDangXuat
+            // 
+            this.bntDangXuat.Caption = "Đăng xuất";
+            this.bntDangXuat.Id = 14;
+            this.bntDangXuat.Name = "bntDangXuat";
+            this.bntDangXuat.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bntDangXuat_ItemClick);
             // 
             // ribbonPage1
             // 
@@ -148,47 +193,6 @@
             this.documentManager1.ViewCollection.AddRange(new DevExpress.XtraBars.Docking2010.Views.BaseView[] {
             this.tabbedView1});
             // 
-            // barButtonItem1
-            // 
-            this.barButtonItem1.ActAsDropDown = true;
-            this.barButtonItem1.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
-            this.barButtonItem1.Caption = "Đăng xuất";
-            this.barButtonItem1.DropDownControl = this.galleryDropDown1;
-            this.barButtonItem1.Id = 11;
-            this.barButtonItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem1.ImageOptions.SvgImage")));
-            this.barButtonItem1.Name = "barButtonItem1";
-            toolTipTitleItem2.Text = "User";
-            superToolTip2.Items.Add(toolTipTitleItem2);
-            this.barButtonItem1.SuperTip = superToolTip2;
-            // 
-            // barButtonItem2
-            // 
-            this.barButtonItem2.Caption = "barButtonItem2";
-            this.barButtonItem2.Id = 12;
-            this.barButtonItem2.Name = "barButtonItem2";
-            // 
-            // galleryDropDown1
-            // 
-            this.galleryDropDown1.Name = "galleryDropDown1";
-            this.galleryDropDown1.Ribbon = this.ribbonControl1;
-            // 
-            // barSubItem1
-            // 
-            this.barSubItem1.Caption = "User";
-            this.barSubItem1.Id = 13;
-            this.barSubItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barSubItem1.ImageOptions.Image")));
-            this.barSubItem1.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barSubItem1.ImageOptions.LargeImage")));
-            this.barSubItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.bntDangXuat)});
-            this.barSubItem1.Name = "barSubItem1";
-            // 
-            // bntDangXuat
-            // 
-            this.bntDangXuat.Caption = "Đăng xuất";
-            this.bntDangXuat.Id = 14;
-            this.bntDangXuat.Name = "bntDangXuat";
-            this.bntDangXuat.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bntDangXuat_ItemClick);
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -203,10 +207,11 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QUẢN LÝ TUYỂN DỤNG";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.galleryDropDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.galleryDropDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -24,13 +24,25 @@ namespace DataLibrary.BUS
             }
         }
         private MauThongBaoBUS() { }
-        public List<MauThongBaoDTO> GetAllData()
+        public List<tbl_MauThongBao> GetAllData()
         {
-            return MauThongBaoDAO.Instance.GetAllMauThongBao();
+            return MauThongBaoDAO.Instance.GetAllData();
         }
-        public int AddData(MauThongBaoDTO mauThongBao)
+        public tbl_MauThongBao GetOneData(int id)
         {
-            return MauThongBaoDAO.Instance.AddData(mauThongBao);
+            return MauThongBaoDAO.Instance.GetOneData(id);
+        }
+        public int DeleteData(int id)
+        {
+            return MauThongBaoDAO.Instance.DeleteData(id);
+        }
+        public tbl_MauThongBao AddData(tbl_MauThongBao data)
+        {
+            return MauThongBaoDAO.Instance.AddData(data);
+        }
+        public int UpdateData(tbl_MauThongBao data)
+        {
+            return MauThongBaoDAO.Instance.UpdateData(data);
         }
     }
 }

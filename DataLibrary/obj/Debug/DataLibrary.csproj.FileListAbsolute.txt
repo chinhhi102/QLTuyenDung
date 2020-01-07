@@ -1,5 +1,12 @@
 C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\bin\Debug\DataLibrary.dll
 C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\bin\Debug\DataLibrary.pdb
-C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
 C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\obj\Debug\DataLibrary.dll
 C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\obj\Debug\DataLibrary.pdb
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\bin\Debug\DataLibrary.dll.config
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\bin\Debug\EntityFramework.dll
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\bin\Debug\EntityFramework.xml
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\bin\Debug\Microsoft.CSharp.dll
+C:\Users\chinhhi102\Desktop\QLTuyenDung\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache

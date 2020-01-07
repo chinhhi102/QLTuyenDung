@@ -1,9 +1,11 @@
 ﻿CREATE TABLE [dbo].[tbl_TinhHinhThuViec]
 (
 	[TinhHinhThuViecID] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [KhaNangLamViec] NCHAR(10) NULL, 
-    [ThaiDoLamViec] NCHAR(10) NULL, 
-    [KinhNghiemLamViec] NCHAR(10) NULL, 
-    [HieuQuaLamViec] NCHAR(10) NULL, 
-    [NgayChapNhan] NCHAR(10) NULL
+	[ThuViecID] INT NULL,
+    [KhaNangLamViec] NVARCHAR(MAX) NULL, 
+    [ThaiDoLamViec] NVARCHAR(MAX) NULL, 
+    [KinhNghiemLamViec] NVARCHAR(MAX) NULL, 
+    [HieuQuaLamViec] NVARCHAR(MAX) NULL, 
+    [NgayCapNhap] DATE NULL
+    
 )
